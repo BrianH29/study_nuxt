@@ -37,8 +37,7 @@ export default {
   devServer: {
     overlay: false,
   },
-  // server setup
-  // server: {
-  //   port: 5000,
-  // },
+  server: {
+    port: 5000,
+  },
 };

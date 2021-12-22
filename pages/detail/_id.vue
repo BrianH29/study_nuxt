@@ -27,7 +27,9 @@ export default {
     return { product };
   },
   methods: {
-    addToCart() {},
+    addToCart() {
+      this.$router.push('cart');
+    },
   },
 };
 </script>
